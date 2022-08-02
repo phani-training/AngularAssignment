@@ -1,0 +1,11 @@
+<h2>Add New Patient Details</h2>
+<hr>
+<div><input type="text" [(ngModel)] = "patient.id"></div>
+<div><input type="text" [(ngModel)] = "patient.name"></div>
+<div><input type="text" [(ngModel)] = "patient.address"></div>
+<div><input type="text" [(ngModel)] = "patient.doctor"></div>
+<div><input type="text" [(ngModel)] = "patient.bill"></div>
+<div>
+    <button (click)="onSubmit()">Save Changes</button>
+    <button routerLink="/">Back</button>
+</div>

@@ -9,6 +9,7 @@ import { NavBarComponent } from './Components/nav-bar/nav-bar.component';
 import { PatientInfoComponent } from './Components/patient-info/patient-info.component';
 import { PatientMgrComponent } from './Components/patient-mgr/patient-mgr.component';
 import { EditPatientComponent } from './Components/edit-patient/edit-patient.component';
+import { AddPatientComponent } from './Components/add-patient/add-patient.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { EditPatientComponent } from './Components/edit-patient/edit-patient.com
     NavBarComponent,
     PatientInfoComponent,
     PatientMgrComponent,
-    EditPatientComponent
+    EditPatientComponent,
+    AddPatientComponent
   ],
   imports: [
     BrowserModule,
