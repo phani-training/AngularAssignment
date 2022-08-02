@@ -1,0 +1,16 @@
+<h1>Calculator App</h1>
+<hr>
+<div>
+    <div>
+        <input type="number" [(ngModel)]="principle" placeholder="Enter the Principle Amount">
+    </div>
+    <div>
+        <input type="number" [(ngModel)]="rateOfInterest" placeholder="Enter the Rate of Interest">
+    </div>
+    <div>
+        <button (click)="onCalculate()">Calculate</button>
+    </div>
+    <div>
+        <p>The Total Amount after calculation: {{totalAmount}}</p>
+    </div>
+</div> 

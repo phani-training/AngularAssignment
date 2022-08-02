@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    background-color: bisque;
+    color:brown;
+    font-size: 20pt;
+    padding: 5px;
+    margin:2px;
+}
+.heading{
+    padding: 30px;
+    margin:5px;
+    font-size: 38pt;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+}
+a{
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    background-color: chocolate;
+    color: snow;
+    text-align: center;
+    vertical-align: center;
+}
