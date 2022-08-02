@@ -1,0 +1,11 @@
+<h2>Edit Patient Details</h2>
+<hr>
+<div><input type="text" [(ngModel)] = "selectedPatient.id"></div>
+<div><input type="text" [(ngModel)] = "selectedPatient.name"></div>
+<div><input type="text" [(ngModel)] = "selectedPatient.address"></div>
+<div><input type="text" [(ngModel)] = "selectedPatient.doctor"></div>
+<div><input type="text" [(ngModel)] = "selectedPatient.bill"></div>
+<div>
+    <button (click)="onUpdate()">Update</button>
+    <button routerLink="/">Back</button>
+</div>
