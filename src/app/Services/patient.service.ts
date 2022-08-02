@@ -21,4 +21,17 @@ export class PatientService {
     let index = this.patients.findIndex((p)=>p.id == id);
     this.patients.splice(index, 1);  
   }
+  
+    findPatient(id : number) : Patient{
+    let selected = this.patients.find((p)=>p.id == id);
+    if(selected == undefined){
+      throw "Patient not found";
+    }
+    return selected;
+  }
+
+  updatePatient(patient : Patient){
+    let index = this.patients.findIndex((p)=>p.id == patient.id);
+    this.patients.splice(index, 1, patient);
+  }
 }
