@@ -1,0 +1,11 @@
+{
+	"Patients":[
+		{"id": 111, "name": "Phaniraj", "bill" : 5600, "doctor": 124, "address": "Bangalore"}		
+	],
+	"Doctors":[
+		{"id" : 123, "name": "Ramnath Nishad"},
+		{"id" : 124, "name": "Shubham Singh"},
+		{"id" : 125, "name": "Rajeev Kumar"},
+		{"id" : 126, "name": "Arjun Reddy"}
+	]
+}
