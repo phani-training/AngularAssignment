@@ -34,4 +34,8 @@ export class PatientService {
     let index = this.patients.findIndex((p)=>p.id == patient.id);
     this.patients.splice(index, 1, patient);
   }
+  
+  getAll() : Patient[]{
+    return this.patients;
+  }
 }
