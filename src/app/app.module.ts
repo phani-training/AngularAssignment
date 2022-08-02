@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { FinanceComponent } from './Components/finance/finance.component';
 import { NavBarComponent } from './Components/nav-bar/nav-bar.component';
 import { PatientInfoComponent } from './Components/patient-info/patient-info.component';
+import { PatientMgrComponent } from './Components/patient-mgr/patient-mgr.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FinanceComponent,
     NavBarComponent,
-    PatientInfoComponent
+    PatientInfoComponent,
+    PatientMgrComponent
   ],
   imports: [
     BrowserModule,
